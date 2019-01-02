@@ -14,5 +14,5 @@ class Async(metaclass=AsyncMetaclass):
     def __init__(self):
         raise Exception(
             "This class should not be instantiated, call the class directly, "
-            "e.g. Async;run_in_executor(...)"
+            "e.g. Async.run_in_executor(...)"
         )
